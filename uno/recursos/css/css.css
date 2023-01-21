@@ -240,14 +240,19 @@ body {
 
 /*--posicion */
 
+.text1 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 .categorias {
     padding-top: 3rem;
 }
 
 .listado-categorias {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 2rem;
+    grid-template-columns: repeat(4, 3fr);
+    gap: 1rem;
 }
 
 
@@ -291,16 +296,23 @@ body {
 }
 
 .categoria:hover>.capa h3 {
-    margin-top: 60px;
-    margin-bottom: 10px;
+    margin-top: 40px;
+    margin-bottom: 15px;
 }
 
 .categoria h3 {
     color: #fff;
     font-weight: 400;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
     transition: all 500ms ease-out;
-    margin-top: 30px;
+    font-size: 20px;
+}
+
+.categoria .capa p {
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
 }
 
 
